@@ -1,0 +1,92 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: "Poppins", serif;
+}
+
+button{
+  all: unset;
+  padding: 6px 16px;
+  background:red ;
+  height: 32px;
+  color:white;
+  font-weight: 500;
+}
+.container{
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.nav{
+  height: 72px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgb(220, 219, 219);
+ 
+}
+ul{
+  list-style: none;
+  display: flex;
+  gap: 24px;
+}
+ul li{
+   margin: 0 10x;
+}
+img{
+    height: 80px;
+    width: 120px;
+    padding-top: 30px;
+}
+.hero{
+  display: flex ;
+  align-items: center;
+  height: calc(100vh-72px);
+  margin-top: 20px;
+}
+.hero-container{
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+.hero h1{
+  font-weight: 800;
+  line-height: 102px;
+  font-size: 108px;
+}
+.hero p{
+  font-weight: 600;
+  color: gray;
+  max-width: 400px;
+}
+.hero-btn{
+  display: flex;
+  gap: 40px;
+}
+.hero-btn button{
+  font-size: 24px;
+}
+
+.secondary-btn{
+  background: transparent;
+  color: gray;
+  border: 1px solid gray;
+}
+.shopping p{
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+.brand-icons{
+  display: flex;
+  gap: 16px;
+}
+.hero-img img{
+  height:90vh;
+  width: 80vh;
+}
+.brand-icons img{
+  height:40px;
+  width: 40px;
+}
